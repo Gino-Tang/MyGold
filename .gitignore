@@ -1,0 +1,9 @@
+# dependencies and builds
+node_modules/
+.next/
+
+# local secrets (the documented template remains versioned)
+.env
+.env.local
+.env.*.local
+!.env.example
